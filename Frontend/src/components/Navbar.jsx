@@ -99,7 +99,7 @@ function Navbar() {
             </svg>
           </label>
           <div className="">
-            <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">
+            <a className=" ml-10 md:ml-0 bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">
               Login
             </a>
           </div>
