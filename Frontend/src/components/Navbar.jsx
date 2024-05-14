@@ -47,11 +47,13 @@ function Navbar() {
           </div>
           <a className="text-2xl font-bold cursor-pointer">Bookstore</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navItems}</ul>
-        </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
+        <div className="nabar-end">
+          <div className="navbar-center hidden lg:flex">
+            <ul className="menu menu-horizontal px-1">{navItems}</ul>
+          </div>
+          <div className="navbar-end">
+            <a className="btn">Button</a>
+          </div>
         </div>
       </div>
     </div>
