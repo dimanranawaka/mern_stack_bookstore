@@ -4,7 +4,7 @@ import banner from "../assets/banner.jpg";
 function Banner() {
   return (
     <>
-      <div className="max-w-screen-2x1 container mx-auto md:px-20 px-4 flex flex-col md:flex-row">
+      <div className="max-w-screen-2x1 container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
         <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-32">
           <div className="space-y-12">
             <h1 className="text-4xl font-bold">
@@ -36,7 +36,7 @@ function Banner() {
         <div className="order-1 w-full md:w-1/2">
           <img
             src={banner}
-            className="mt-10 w-85 h-86 md:ml-10 mt-5 rounded border-0 "
+            className="mt-10 w-85 h-86 md:ml-10 mt-12 rounded border-0 "
             alt=""
           />
         </div>
