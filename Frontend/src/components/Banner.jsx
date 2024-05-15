@@ -36,7 +36,7 @@ function Banner() {
         <div className="order-1 w-full md:w-1/2">
           <img
             src={banner}
-            className=" w-85 h-86 md:ml-10 mt-5 rounded"
+            className="mt-10 w-85 h-86 md:ml-10 mt-5 rounded border-0 "
             alt=""
           />
         </div>
