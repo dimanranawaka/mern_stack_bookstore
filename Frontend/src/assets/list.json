@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Novel",
+    "title": "Millionaire Next",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 2,
+    "name": "Drama",
+    "title": "Drama Art",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 3,
+    "name": "Food Book",
+    "title": "Learn to Cook",
+    "price": 0,
+    "category": "Food",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 4,
+    "name": "Novel",
+    "title": "Millionaire Next",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 5,
+    "name": "Novel",
+    "title": "Millionaire Next",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 6,
+    "name": "Novel",
+    "title": "Millionaire Next",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 7,
+    "name": "Novel",
+    "title": "Millionaire Next",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 8,
+    "name": "Novel",
+    "title": "Millionaire Next",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 9,
+    "name": "Music Book",
+    "title": "Music Theory",
+    "price": 60,
+    "category": "Song",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 10,
+    "name": "Story Book",
+    "title": "Millionaire Next",
+    "price": 100,
+    "category": "Entertaintment",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 11,
+    "name": "Novel",
+    "title": "Millionaire Next",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  },
+  {
+    "id": 12,
+    "name": "Sports Book",
+    "title": "Run Fast",
+    "price": 50,
+    "category": "Sports",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1715855804~exp=1715859404~hmac=e3c18a51f1d21333ec7a702f2c225460812bd1543fdaf9e1656fad43154b1ff0&w=900"
+  }
+]
