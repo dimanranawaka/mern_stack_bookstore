@@ -9,8 +9,8 @@ function App() {
     <>
       <Navbar />
       <Banner />
-      <Footer />
       <Freebook />
+      <Footer />
     </>
   );
 }
