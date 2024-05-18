@@ -1,6 +1,7 @@
 import React from "react";
 import list from "../assets/list.json";
 import Cards from "../components/Cards";
+import { Link } from "react-router-dom";
 
 function Course() {
   return (
@@ -17,9 +18,11 @@ function Course() {
             anything in between, our curated selection of courses has something
             for everyone. Start your learning journey today!
           </p>
-          <button className="mt-8 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
-            Back
-          </button>
+          <Link to="/">
+            <button className="mt-8 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
+              Back
+            </button>
+          </Link>
         </div>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4">
           {list.map((item) => {
