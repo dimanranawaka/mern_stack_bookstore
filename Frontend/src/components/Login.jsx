@@ -33,7 +33,11 @@ function Login() {
                   className="w-80 px-3 py-1 border rounded-md outline-none"
                   {...register("email", { required: true })}
                 />
-                {errors.email && <span>This field is required</span>}
+                {errors.email && (
+                  <span className="mx-2 text-sm text-red-500">
+                    This field is required
+                  </span>
+                )}
               </div>
               <div>
                 <span>Password</span>
@@ -44,7 +48,11 @@ function Login() {
                   className="w-80 px-3 py-1 border rounded-md outline-none"
                   {...register("password", { required: true })}
                 />
-                {errors.password && <span>This field is required</span>}
+                {errors.password && (
+                  <span className="mx-2 text-sm text-red-500">
+                    This field is required
+                  </span>
+                )}
               </div>
               <div className="flex justify-around mt-4">
                 <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
