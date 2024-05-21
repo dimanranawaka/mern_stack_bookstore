@@ -33,6 +33,7 @@ function Login() {
                   className="w-80 px-3 py-1 border rounded-md outline-none"
                   {...register("email", { required: true })}
                 />
+                <br />
                 {errors.email && (
                   <span className="mx-2 text-sm text-red-500">
                     This field is required
@@ -48,6 +49,7 @@ function Login() {
                   className="w-80 px-3 py-1 border rounded-md outline-none"
                   {...register("password", { required: true })}
                 />
+                <br />
                 {errors.password && (
                   <span className="mx-2 text-sm text-red-500">
                     This field is required
