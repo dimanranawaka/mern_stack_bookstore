@@ -5,12 +5,7 @@ function Login() {
     <>
       <div>
         {/* You can open the modal using document.getElementById('ID').showModal() method */}
-        <button
-          className="btn"
-          onClick={() => document.getElementById("my_modal_3").showModal()}
-        >
-          open modal
-        </button>
+
         <dialog id="my_modal_3" className="modal">
           <div className="modal-box">
             <form method="dialog">
@@ -19,8 +14,39 @@ function Login() {
                 ✕
               </button>
             </form>
-            <h3 className="font-bold text-lg">Hello!</h3>
-            <p className="py-4">Press ESC key or click on ✕ button to close</p>
+            <h3 className="font-bold text-lg">Login</h3>
+            {/* Email */}
+            <div>
+              <span>Email</span>
+              <br />
+              <input
+                type="email"
+                placeholder="Enter Your Email"
+                className="w-80 px-3 py-1 border rounded-md outline-none"
+              />
+            </div>
+            {/* Password */}
+            <div>
+              <span>Password</span>
+              <br />
+              <input
+                type="text"
+                placeholder="Enter Your Password"
+                className="w-80 px-3 py-1 border rounded-md outline-none"
+              />
+            </div>
+            {/* Button */}
+            <div className="flex justify-around mt-4">
+              <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
+                Login
+              </button>
+              <p>
+                Not registered?{" "}
+                <span className="underline text-blue-500 cursor-pointer">
+                  SignUp
+                </span>{" "}
+              </p>
+            </div>
           </div>
         </dialog>
       </div>
