@@ -4,9 +4,15 @@ import mongoose from 'mongoose';
 
 import bookRoute from './routes/book.route.js';
 
-dotenv.config();
+import cors from 'cors';
 
 const app = express();
+
+app.use(cors());
+
+dotenv.config();
+
+
 
 const PORT = process.env.PORT || 4000;
 const MONGO_URI = process.env.MONGO_URI;
