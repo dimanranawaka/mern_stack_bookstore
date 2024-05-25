@@ -4,7 +4,7 @@ export const getBook = async (req, res) => {
 
     try {
 
-        const book = await book.find();
+        const book = await Book.find();
         res.status(200).json(book);
 
     } catch (error) {
